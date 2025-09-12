@@ -1,4 +1,4 @@
 FROM koyeb/docker-compose
-
+ARG TESTAPI
 COPY . /app
 COPY .env.example /app/.env
