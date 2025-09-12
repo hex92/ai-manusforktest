@@ -1,4 +1,4 @@
 FROM koyeb/docker-compose
 
 COPY . /app
-# COPY .env.example /app/.env
+COPY .env.example /app/.env
