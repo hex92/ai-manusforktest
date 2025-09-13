@@ -37,7 +37,6 @@ services:
       #- ./mcp.json:/etc/mcp.json # Mount MCP servers directory
     networks:
       - manus-network
-    ARG TESTAPI
     env_file:
       - .env
 
